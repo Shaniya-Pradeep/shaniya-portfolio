@@ -1,0 +1,150 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaniya Pradeep C | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f6f2;
+      color: #252b29;
+      line-height: 1.7;
+    }
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .logo { font-size: 23px; font-weight: bold; letter-spacing: 2px; }
+    nav a {
+      text-decoration: none; color: #333;
+      margin-left: 20px; font-size: 14px;
+    }
+    .hero {
+      padding: 100px 8%;
+      background: #e8e5dc;
+    }
+    .tag { color: #68776b; letter-spacing: 3px; font-size: 12px; }
+    h1 { font-size: clamp(38px, 7vw, 68px); line-height: 1.15; margin: 20px 0; }
+    .hero p { max-width: 560px; color: #555; }
+    .button {
+      display: inline-block; margin-top: 25px;
+      padding: 12px 24px; background: #34483b;
+      color: white; text-decoration: none; border-radius: 5px;
+    }
+    section { padding: 65px 8%; }
+    h2 { font-size: 30px; margin-bottom: 22px; }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      padding: 24px; background: white; border-radius: 10px;
+      border: 1px solid #e5e2dc;
+    }
+    .card h3 { margin-bottom: 10px; }
+    .card p { color: #666; font-size: 14px; }
+    #about p { max-width: 750px; }
+    #contact { background: #e8e5dc; }
+    footer { text-align: center; padding: 22px; font-size: 13px; }
+    @media(max-width: 600px) {
+      header { padding: 18px 5%; }
+      nav a { margin-left: 8px; font-size: 12px; }
+      .hero, section { padding: 55px 6%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">SHANIYA.</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="tag">MY PERSONAL PORTFOLIO</div>
+      <h1>Hi, I'm Shaniya<br>Pradeep C.</h1>
+      <p>Final-year BCA student passionate about technology, creative ideas and web development. Welcome to my portfolio!</p>
+      <a class="button" href="#projects">Explore My Projects ↗</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a final-year Bachelor of Computer Applications (BCA) student developing my technical knowledge and practical skills. I enjoy learning new technologies and building creative projects that solve everyday problems.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>BCA — Final Year</h3>
+          <p>RR Institute of Management Studies</p>
+          <p>Currently pursuing my degree.</p>
+        </div>
+        <div class="card">
+          <h3>Higher Secondary</h3>
+          <p>12th Standard — 70%</p>
+        </div>
+        <div class="card">
+          <h3>SSLC</h3>
+          <p>10th Standard — 87%</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="grid">
+        <div class="card"><h3>HTML & CSS</h3><p>Building and styling web pages.</p></div>
+        <div class="card"><h3>JavaScript</h3><p>Learning interactive web development.</p></div>
+        <div class="card"><h3>React</h3><p>Developing component-based interfaces.</p></div>
+        <div class="card"><h3>MySQL</h3><p>Learning database fundamentals.</p></div>
+        <div class="card"><h3>Node.js</h3><p>Exploring backend development.</p></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>ROOMORA</h3>
+          <p>A smart interior makeover planner concept focused on creative and budget-friendly room designs.</p>
+        </div>
+        <div class="card">
+          <h3>StudySphere</h3>
+          <p>A BCA study planner concept for subjects, tasks, attendance and exam preparation.</p>
+        </div>
+        <div class="card">
+          <h3>Smart Water Level Monitoring</h3>
+          <p>An IoT project concept to monitor water levels and help reduce tank overflow.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Thank you for visiting my portfolio.</p>
+      <p>Interested in connecting? Please contact me by email.</p>
+      <p><strong>Email:</strong> Add your email address here</p>
+    </section>
+  </main>
+
+  <footer>© 2026 Shaniya Pradeep C | Personal Portfolio</footer>
+</body>
+</html>
+```
